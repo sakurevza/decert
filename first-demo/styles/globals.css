@@ -1,0 +1,76 @@
+
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 100px;
+  margin: -1px -1px 0 0;
+  padding: 0;
+  text-align: center;
+  width: 100px;
+  cursor: pointer;
+}
+
+.square:focus {
+  outline: none; 
+}
+
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* styles/globals.css */
+
+/* ... existing styles ... */
+
+.game {
+  display: flex;
+  font-family: sans-serif;
+}
+
+.game-board {
+  margin-right: 20px;
+}
+
+.game-info {
+  padding: 20px;
+  border-left: 1px solid #eee;
+}
+
+.game-info ol {
+  padding-left: 30px;
+}
+
+.game-info li button {
+  margin-bottom: 5px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.game-info li button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Make the page center */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0; /* Remove default body margin */
+}
+
+.game {
+    /* Adjust if needed for centering */
+}
